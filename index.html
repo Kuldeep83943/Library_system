@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library System</title>
+</head>
+
+<body style="margin: 0px; background-color: #D3D3D3; scroll-behavior: smooth;">
+
+    <div id="main">
+        <nav id="navbar">
+            <div style="color: white; margin-right: 800px;">
+                <h2>Library System</h2>
+            </div>
+            <a href="#book">Books</a>
+            <a href="#register">Register</a>
+            <a href="">Contact Us</a>
+            <a href="">Logout</a>
+        </nav>
+        <div id="book">
+            <h2>Books</h2>
+            <table style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- first row -->
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div class="author">
+                                <a href="">Book Title 1</a>
+                            </div>
+                            <br>
+                            <table border="1px solid black" style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count: 250</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN: 123-4567890123</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Author Name 1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <!-- second row -->
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <div class="author">
+                                <a href="">Book Title 2</a>
+                            </div>
+                            <br>
+                            <table border="1px solid black" style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2005</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count: 300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN: 123-4567890456</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Author Name 1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <!-- third row -->
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <div class="author">
+                                <a href="">Book Title 3</a>
+                            </div>
+                            <br>
+                            <table border="1px solid black" style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>Publication Date: 2010</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count: 350</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN: 123-4567890789</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Author Name 1</td>
+                        <td>Genre 1</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="register">
+
+            <form action="" id="form">
+                <h2>Register</h2>
+                <label for="firstname">First Name:</label>
+                <br>
+                <input type="text" placeholder="First Name" class="input-field" id="firstname" required>
+                <br>
+
+                <label for="lastname">Last Name:</label>
+                <br>
+                <input type="text" placeholder="Last Name" class="input-field" id="lastname" required>
+                <br>
+
+                <label for="dob">Date Of Birth</label>
+                <br>
+                <input type="date" class="input-field" id="dob" required>
+                <br>
+
+                <label for="age">Age:</label>
+                <br>
+                <input type="text" placeholder="Age" class="input-field" id="age" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" placeholder="example@gmail.com" class="input-field" id="email" required>
+                <br>
+
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" class="input-field" id="password" required>
+                <br>
+
+                <label for="c_password">Confirm Password:</label>
+                <br>
+                <input type="password" class="input-field" id="c_password" required>
+                <br>
+                <button type="submit" id="btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
